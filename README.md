@@ -11,8 +11,11 @@ CPU：i5-13600k (带核显加了屏蔽参数)
 
 硬盘： 爱国者S7000z 2T
 
-无线网卡&蓝牙： BCM94360CD (苹果原装拆机卡)
+无线网卡&蓝牙： BCM94360CD (苹果原装拆机卡) 
 
+### 0.9.5版本更新
+- 修改了oc相关配置，测试两天，睡眠完美
+- cpu核心最高5.0，跑分正常, 内存频率偏低跑分低
 
 ### BIOS Settings
 BIOS使用最新版本
@@ -41,6 +44,10 @@ BIOS使用最新版本
 
 
 ### 截图
+![cpu-m.png](img/cpu-m.png)
+![cpu-s.png](img/cpui-s.png)
+![geekbeech6.png](img/gb6.png)
+![intel.png](img/intel.png)
 ![oc1.jpeg](img%2Foc1.jpeg)
 ![sensei1.png](img%2Fsensei1.png)
 ![senser2.png](img%2Fsenser2.png)
@@ -50,4 +57,3 @@ BIOS使用最新版本
 ![sys4.png](img%2Fsys4.png)
 ![ds1.png](img%2Fds1.png)
 ![ds2.png](img%2Fds2.png)
-![oc2.jpeg](img%2Foc2.jpeg)
