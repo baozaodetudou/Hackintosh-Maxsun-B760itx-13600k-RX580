@@ -1,0 +1,15 @@
+{
+  "OpenCore_version": "1.0.7",
+  "raw_backup_files_verified": 480,
+  "public_archive_files_verified": 474,
+  "public_files_match_private_except_redacted_config": true,
+  "archive_crc": "passed",
+  "sha256_manifest": "passed",
+  "enabled_paths": "passed",
+  "official_OpenCore_and_BOOT_binary_identity": "passed",
+  "official_ocvalidate_original": "passed",
+  "official_ocvalidate_public": "passed",
+  "identity_scan": "passed",
+  "actual_Tahoe_boot_test": false,
+  "sleep_AirDrop_autojoin_tested_in_this_capture": false
+}

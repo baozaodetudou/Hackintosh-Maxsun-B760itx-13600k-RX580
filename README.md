@@ -6,6 +6,17 @@
 
 ## 当前版本 / Current release
 
+### 1.0.7 / Sequoia 15.8.1 快照（2026-10-15）
+
+- 从本机实际使用的 EFI 只读挂载后备份；当前已启动系统为 **macOS 15.8.1（24H32）**。
+- 保留原有 OpenCore 1.0.7 和全部现用驱动，包含恢复系统更新检测的 `revpatch=memtab,pci,cpuname,sbvmm`。
+- [下载公开 EFI](1.0.7-sequoia-15.8.1/EFI-OpenCore-1.0.7-Sequoia-15.8.1.zip) · [查看配置](1.0.7-sequoia-15.8.1/config.plist) · [备份说明](1.0.7-sequoia-15.8.1/README.md)。
+- SHA-256：`1939d7fda0c41ca474bcdf51d26284ea262843a7ff54466d890b7a51b906b277`。
+- 公开配置已去除机器标识；完整原始备份仅保存在本机。系统无线 root patch 不在 EFI 中，不能靠复制 EFI 一并恢复。
+- 本次确认已启动 15.8.1，无线补丁元数据对应 24H32；未新增整机睡眠、自动联网或 AirDrop 的实机验证承诺。
+
+Live EFI snapshot for macOS 15.8.1, with machine identifiers removed for publication. OpenCore remains 1.0.7; existing boot behavior is preserved. Full sleep, automatic Wi-Fi reconnection and AirDrop remain to be tested.
+
 ### 1.0.7（2026-08-10）
 
 - OpenCore：1.0.7 RELEASE
@@ -33,7 +44,7 @@
 | CPU | Intel Core i5-13600K（6P + 8E） |
 | 核显 | Intel UHD 770，macOS 下禁用 |
 | 独显 | AMD Radeon RX 6600 XT 8GB |
-| 内存 | Kingston DDR4-3200 32GB（16GB × 2） |
+| 内存 | 当前系统识别为 64GB；早期版本记录为 DDR4-3200 32GB |
 | macOS SSD | aigo P7000Z 2TB NVMe |
 | Windows SSD | KIOXIA EXCERIA G2 500GB NVMe |
 | 有线网卡 | Realtek RTL8125 2.5GbE |

@@ -1,0 +1,27 @@
+{
+  "captured_on": "2026-10-15",
+  "macOS": "15.8.1",
+  "build": "24H32",
+  "OpenCore": "1.0.7",
+  "source": "Live EFI partition, mounted read-only",
+  "raw_file_count": 480,
+  "public_file_count": 474,
+  "archive_sha256": "1939d7fda0c41ca474bcdf51d26284ea262843a7ff54466d890b7a51b906b277",
+  "redacted_identity_fields": [
+    "MLB",
+    "ROM",
+    "SystemSerialNumber",
+    "SystemUUID"
+  ],
+  "excluded_from_public": [
+    "APPLE firmware update cache",
+    ".DS_Store",
+    "AppleDouble files"
+  ],
+  "root_patch_metadata": {
+    "OCLP": "2.5.1",
+    "PatcherSupportPkg": "1.9.7",
+    "OS": "24H32"
+  },
+  "boot_and_feature_validation": "Booted into 15.8.1; full sleep/AirDrop/autojoin not tested in this capture"
+}
