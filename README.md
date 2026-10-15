@@ -17,6 +17,14 @@
 
 Live EFI snapshot for macOS 15.8.1, with machine identifiers removed for publication. OpenCore remains 1.0.7; existing boot behavior is preserved. Full sleep, automatic Wi-Fi reconnection and AirDrop remain to be tested.
 
+### Tahoe 26.7.1 测试配置 / Test configuration
+
+[测试包与使用说明](testing/26.7.1/README.md)：提供安装器与运行两套配置，按 Darwin 版本分开加载 Broadcom 驱动，补齐 USB 端口属性。保留 OpenCore 1.0.7 及现有官方 WhateverGreen 1.7.1；安装器阶段在 Tahoe 下停用 WEG，并使用独立 AGDP 补丁。
+
+**仅完成静态验证，尚未在本机运行 26.7.1；保留现有 15.8.1 后，从独立测试介质试启动。** 无线 root patch 需要在目标系统另行处理。
+
+Two test profiles for Tahoe 26.7.1, with version-gated wireless payloads and USB property updates. Static validation is separate from hardware testing; the live EFI is not deployed or changed.
+
 ### 1.0.7（2026-08-10）
 
 - OpenCore：1.0.7 RELEASE

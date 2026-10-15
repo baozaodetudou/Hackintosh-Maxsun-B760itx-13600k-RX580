@@ -1,0 +1,25 @@
+{
+  "added_files": [
+    "EFI/OC/Kexts/Tahoe/AirPortBrcmNIC-Tahoe.kext/Contents/Info.plist",
+    "EFI/OC/Kexts/Tahoe/AirPortBrcmNIC-Tahoe.kext/Contents/MacOS/AirPortBrcmNIC",
+    "EFI/OC/Kexts/Tahoe/AirPortBrcmNIC-Tahoe.kext/Contents/_CodeSignature/CodeResources",
+    "EFI/OC/Kexts/Tahoe/AirPortBrcmNIC-Tahoe.kext/Contents/version.plist",
+    "EFI/OC/Kexts/Tahoe/IO80211FamilyLegacy.kext/Contents/Info.plist",
+    "EFI/OC/Kexts/Tahoe/IO80211FamilyLegacy.kext/Contents/MacOS/IO80211FamilyLegacy",
+    "EFI/OC/Kexts/Tahoe/IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext/Contents/Info.plist",
+    "EFI/OC/Kexts/Tahoe/IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext/Contents/MacOS/AirPortBrcmNIC",
+    "EFI/OC/Kexts/Tahoe/IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext/Contents/_CodeSignature/CodeResources",
+    "EFI/OC/Kexts/Tahoe/IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext/Contents/version.plist",
+    "EFI/OC/Kexts/Tahoe/IOSkywalkFamily.kext/Contents/Info.plist",
+    "EFI/OC/Kexts/Tahoe/IOSkywalkFamily.kext/Contents/MacOS/IOSkywalkFamily",
+    "EFI/OC/Kexts/Tahoe/IOSkywalkFamily.kext/Contents/_CodeSignature/CodeResources",
+    "EFI/OC/config-installer.plist",
+    "EFI/OC/config-runtime.plist"
+  ],
+  "changed_existing_files": [
+    "EFI/OC/Kexts/USBPorts.kext/Contents/Info.plist",
+    "EFI/OC/config.plist"
+  ],
+  "removed_files": [],
+  "runtime_tested": false
+}

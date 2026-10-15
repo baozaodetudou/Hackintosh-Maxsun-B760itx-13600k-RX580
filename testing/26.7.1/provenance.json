@@ -1,0 +1,31 @@
+{
+  "baseline": "1.0.7-sequoia-15.8.1/EFI-OpenCore-1.0.7-Sequoia-15.8.1.zip",
+  "OpenCore": "1.0.7",
+  "target_macOS": "26.7.1 (25G241)",
+  "target_Darwin": "25.x",
+  "new_payloads": [
+    {
+      "name": "IOSkywalkFamily-v1.2.0.zip",
+      "sha256": "1e12b7ef42f55b39ea54ada97b46331220668b2c48a28656e9875c5145fe2479",
+      "git_blob_sha1": "17eab5f1b3b12bff097fb2c50610ee1dbd6f7fe8",
+      "source": "https://github.com/dortania/OpenCore-Legacy-Patcher/blob/3.0.0-rc.3/payloads/Kexts/Wifi/IOSkywalkFamily-v1.2.0.zip"
+    },
+    {
+      "name": "IO80211FamilyLegacy-v1.0.0.zip",
+      "sha256": "e681dcc76a2cd2cea4b0ad5f27a3c816055fde3cdccd890dd10a3e2c84e96d93",
+      "git_blob_sha1": "1e3452819cac6cebbd19932895ee56888af6e449",
+      "source": "https://github.com/dortania/OpenCore-Legacy-Patcher/blob/3.0.0-rc.3/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip"
+    },
+    {
+      "name": "AirPortBrcmNIC-Tahoe-v1.0.0.zip",
+      "sha256": "04edd7127ce096f5de9f8112af6d06744f27e5bc659e3d6516408755cb9af032",
+      "git_blob_sha1": "5c9f07250a9f6cc6d78c45921c43205910b66c39",
+      "source": "https://github.com/dortania/OpenCore-Legacy-Patcher/blob/3.0.0-rc.3/payloads/Kexts/Wifi/AirPortBrcmNIC-Tahoe-v1.0.0.zip"
+    }
+  ],
+  "WhateverGreen": "Existing official 1.7.1 binary; no third-party modification",
+  "AGDP_patch_reference": "https://github.com/acidanthera/WhateverGreen/blob/0762cecc2a70054cd4dc3cf4d08979aca6acd9bb/WhateverGreen/kern_weg.cpp",
+  "USB_property_reference": "https://github.com/corpnewt/USBMap/blob/master/USBMapInjectorEdit.py",
+  "root_patches_included": false,
+  "runtime_tested": false
+}

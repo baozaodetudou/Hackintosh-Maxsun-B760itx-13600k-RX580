@@ -1,0 +1,22 @@
+[
+  {
+    "case": "reject_identity_leak",
+    "result": "rejected as expected"
+  },
+  {
+    "case": "reject_duplicate_Broadcom_driver",
+    "result": "rejected as expected"
+  },
+  {
+    "case": "reject_installer_WEG_overlap",
+    "result": "rejected as expected"
+  },
+  {
+    "case": "reject_missing_kext_binary",
+    "result": "rejected as expected"
+  },
+  {
+    "case": "reject_inconsistent_USB_connector_type",
+    "result": "rejected as expected"
+  }
+]
