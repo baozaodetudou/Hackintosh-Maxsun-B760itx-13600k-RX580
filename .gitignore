@@ -1,0 +1,8 @@
+.DS_Store
+._*
+.idea/
+.lh/
+.private/
+**/opencore-*.txt
+**/SysReport/
+__pycache__/
